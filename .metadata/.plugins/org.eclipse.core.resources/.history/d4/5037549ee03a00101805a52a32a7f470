@@ -1,0 +1,19 @@
+package API_Automation.API_Automation_Project;
+
+import static io.restassured.RestAssured.*;
+
+import io.restassured.response.ResponseBodyData;
+import io.restassured.specification.RequestSpecification;
+
+public class OAuth2_0Test {
+	
+	public void OAuth2_0TestMethod() {
+		
+		String response =given().queryParam("access_token", "")
+		.when().get("https://rahulshettyacademy.com/getCourse.php").asString();
+	
+		
+		System.out.println(response);
+	}
+
+}

@@ -1,0 +1,21 @@
+package API_Automation.API_Automation_Project;
+
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.*;
+public class GraphQL {
+
+	@Test
+	public void testGraphQLAPI() {
+		
+		
+		given()
+	    .log().all()
+	    .header("Content-Type", "application/json")
+	    .body("{\"query\":\"query{ character(characterId:14816){ name } }\",\"variables\":null}")
+	.when()
+	    .post("https://rahulshettyacademy.com/gq/graphql");
+
+		
+	}
+}

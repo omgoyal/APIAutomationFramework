@@ -1,0 +1,57 @@
+package API_Automation.API_Automation_Project;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.response.Response;
+import resources.Utils;
+
+import static io.restassured.RestAssured.*;
+public class GraphQL extends Utils {
+
+	@Test
+	public void testGraphQLAPI() {
+		
+		int characterid=14816;
+		String expectedname="alpha";
+		Response response=given()
+	    .log().all()
+	    .header("Content-Type", "application/json")
+	    .body("{\"query\":\"query{ character(characterId:"+characterid+"){ name } }\",\"variables\":null}")
+	.when().log().all()
+	    .post("https://rahulshettyacademy.com/gq/graphql").then().extract().response();
+		
+		System.out.println(response);
+		
+		String namevalue=getJsonPath(response,"data.character.name");
+		
+		System.out.println(namevalue);
+		
+		Assert.assertEquals(namevalue, expectedname);
+		
+	}
+	
+	//Mutation 
+	
+	@Test
+	public void GraphQLMutation() {
+		
+	
+		String newCharacter="gamma";
+		Response response=given()
+	    .log().all()
+	    .header("Content-Type", "application/json")
+	    .body("{\"query\":\"mutation($charactername:String!) {\\n\\n  \\n  createCharacter(character:{name:$charactername,type:\\\"Macho\\\",status:\\\"dead\\\",\\n    species:\\\"fantasy\\\",gender:\\\"male\\\",image:\\\"testimg\\\",originId:21201, locationId:21201}){\\n    \\n    id\\n  }\\n  \\n  \\n \\n}\\n\\n\\n\\n\",\"variables\":{"+newCharacter+":\"beta\"}}")
+	.when().log().all()
+	    .post("https://rahulshettyacademy.com/gq/graphql").then().extract().response();
+		
+		System.out.println(response);
+		
+		String idvalue=getJsonPath(response,"data.createCharacter.id");
+		
+		System.out.println(idvalue);
+		
+		//Assert.assertEquals(idvalue, newCharacter);
+		
+	}
+}

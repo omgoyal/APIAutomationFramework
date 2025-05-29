@@ -1,0 +1,74 @@
+package stepDefinations;
+
+import static io.restassured.RestAssured.given;
+import static org.testng.Assert.*;
+
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
+
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+	import io.restassured.response.Response;
+	import io.restassured.specification.RequestSpecification;
+	import io.restassured.specification.ResponseSpecification;
+import pojo.Location;
+import pojo.addPlace;
+import resources.TestDataBuild;
+import resources.Utils;
+
+
+public class stepDefination extends Utils{
+	
+	RequestSpecification res;
+	ResponseSpecification response;
+	Response responsevalue;
+	
+	 @Given("Add Place Payload")
+	    public void addPlacePayload() throws FileNotFoundException {
+		 
+		 //Test Data 
+		 TestDataBuild testdatabuild = new TestDataBuild();	
+		 res=given().spec(requestSpecification())
+		.body(testdatabuild.addPlacePayload());
+		 
+	    }
+
+	    @When("user calls {string} with POST HTTP request")
+	    public void user_calls_with_post_http_request(String string) {
+	    	
+	    	response = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+	    	 responsevalue=res.when().post("/maps/api/place/add/json")
+	    			.then().spec(response).extract().response();
+	      
+	    }
+
+	    @Then("the API call got success with status code {int}")
+	    public void the_api_call_success_status_code_should_be_200(int statuscode) {
+	    	
+	    	assertEquals(responsevalue.getStatusCode(),statuscode);
+	        
+	    }
+
+	    @Then("{string} in response body should be {string}")
+	    public void status_in_response_body_should_be_ok(String key, String expectedvalue) {
+	       
+	    	String responseString= responsevalue.asString();
+	    	
+	    	JsonPath js =new JsonPath(responseString);
+	    	
+	    	String actualvalue=js.get(key).toString();
+	    	
+	    	assertEquals(actualvalue,expectedvalue);
+	    	
+	    }
+
+	}
+
+

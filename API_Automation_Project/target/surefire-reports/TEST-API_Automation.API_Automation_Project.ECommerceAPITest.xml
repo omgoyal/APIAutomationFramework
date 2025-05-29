@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="API_Automation.API_Automation_Project.ECommerceAPITest" time="9.1" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\omgoyal\API_Automation\API_Automation_Project\target\test-classes;C:\Users\omgoyal\API_Automation\API_Automation_Project\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\2.40.0\selenium-java-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.40.0\selenium-chrome-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.40.0\selenium-remote-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.40.0\selenium-htmlunit-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.13\htmlunit-2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.13\htmlunit-core-js-2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.19\nekohtml-1.9.19.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.11\cssparser-0.9.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.12.v20130726\jetty-websocket-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-util\8.1.12.v20130726\jetty-util-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-io\8.1.12.v20130726\jetty-io-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-http\8.1.12.v20130726\jetty-http-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.40.0\selenium-firefox-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.40.0\selenium-ie-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.40.0\selenium-safari-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\2.40.0\selenium-support-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\2.40.0\selenium-api-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\opera\operadriver\1.5\operadriver-1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\opera\operalaunchers\1.1\operalaunchers-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\protobuf\protobuf-java\2.4.1\protobuf-java-2.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\detro\ghostdriver\phantomjsdriver\1.1.0\phantomjsdriver-1.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\stqa\selenium\webdriver-factory\1.0\webdriver-factory-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\7.22.1\cucumber-java-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\7.22.1\cucumber-core-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\7.22.1\cucumber-gherkin-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.1\cucumber-gherkin-messages-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\7.22.1\datatable-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\7.22.1\cucumber-plugin-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\7.22.1\docstring-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-junit\7.22.1\cucumber-junit-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\3.0.24\groovy-3.0.24.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.0\jackson-databind-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.0\jackson-annotations-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.0\jackson-core-2.19.0.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jdk-17.0.14.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire663498208737637570\surefirebooter17766578544454667752.jar C:\Windows\Temp\surefire663498208737637570 2025-05-20T19-25-37_357-jvmRun1 surefire5128146159278190331tmp surefire_13807588925070526037tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\omgoyal\API_Automation\API_Automation_Project\target\test-classes;C:\Users\omgoyal\API_Automation\API_Automation_Project\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\2.40.0\selenium-java-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.40.0\selenium-chrome-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.40.0\selenium-remote-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.40.0\selenium-htmlunit-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.13\htmlunit-2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.13\htmlunit-core-js-2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.19\nekohtml-1.9.19.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.11\cssparser-0.9.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.12.v20130726\jetty-websocket-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-util\8.1.12.v20130726\jetty-util-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-io\8.1.12.v20130726\jetty-io-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-http\8.1.12.v20130726\jetty-http-8.1.12.v20130726.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.40.0\selenium-firefox-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.40.0\selenium-ie-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.40.0\selenium-safari-driver-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\2.40.0\selenium-support-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\2.40.0\selenium-api-2.40.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\opera\operadriver\1.5\operadriver-1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\opera\operalaunchers\1.1\operalaunchers-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\protobuf\protobuf-java\2.4.1\protobuf-java-2.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\detro\ghostdriver\phantomjsdriver\1.1.0\phantomjsdriver-1.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\stqa\selenium\webdriver-factory\1.0\webdriver-factory-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\7.22.1\cucumber-java-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\7.22.1\cucumber-core-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\7.22.1\cucumber-gherkin-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.1\cucumber-gherkin-messages-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\7.22.1\datatable-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\7.22.1\cucumber-plugin-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\7.22.1\docstring-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-junit\7.22.1\cucumber-junit-7.22.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\3.0.24\groovy-3.0.24.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.0\jackson-databind-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.0\jackson-annotations-2.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.0\jackson-core-2.19.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\OpenLogic\jdk-17.0.14.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\omgoyal\API_Automation\API_Automation_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire663498208737637570\surefirebooter17766578544454667752.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.14+7-adhoc..jdk17u"/>
+    <property name="user.name" value="IN-CTJWDK3$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="cucumber.options" value="--tags @AddPlace"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="user.dir" value="C:\Users\omgoyal\API_Automation\API_Automation_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\OpenLogic\jdk-17.0.14.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Software\apache-maven-3.9.9-bin\apache-maven-3.9.9/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\apache-jmeter-5.6.3\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="17.0.14+7-adhoc..jdk17u"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="ECommerceAppAPITest" classname="API_Automation.API_Automation_Project.ECommerceAPITest" time="8.07">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "osgoyal@gmail.com",
+    "userPassword": "Rahulshetty@1992"
+}
+HTTP/1.1 200 OK
+Date: Tue, 20 May 2025 13:55:47 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 355
+ETag: W/"163-s4E1lv8T8JyDGQmyZ0kfPRxi4U4"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODFmMWY3ZWZkMmFmMWM5OWUxODgwMGUiLCJ1c2VyRW1haWwiOiJvc2dveWFsQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjcwNDIyMDI0ODEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDc3NDkzNDcsImV4cCI6MTc3OTMwNjk0N30.-RKYmj-q0oF0TTBJSCK0fi8PHIMuxuhs5H-gaQTHlmY",
+    "userId": "681f1f7efd2af1c99e18800e",
+    "message": "Login Successfully"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODFmMWY3ZWZkMmFmMWM5OWUxODgwMGUiLCJ1c2VyRW1haWwiOiJvc2dveWFsQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjcwNDIyMDI0ODEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDc3NDkzNDcsImV4cCI6MTc3OTMwNjk0N30.-RKYmj-q0oF0TTBJSCK0fi8PHIMuxuhs5H-gaQTHlmY
+681f1f7efd2af1c99e18800e
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	productName=Laptop
+				productAddedBy=681f1f7efd2af1c99e18800e
+				productCategory=Electronic
+				productSubCategory=Machine
+				productPrice=45000
+				productDescription=Lenevo
+				productFor=Technology
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODFmMWY3ZWZkMmFmMWM5OWUxODgwMGUiLCJ1c2VyRW1haWwiOiJvc2dveWFsQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjcwNDIyMDI0ODEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDc3NDkzNDcsImV4cCI6MTc3OTMwNjk0N30.-RKYmj-q0oF0TTBJSCK0fi8PHIMuxuhs5H-gaQTHlmY
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = File_Type.png
+				Content-Type: application/octet-stream
+
+				‰PNG
+				&amp#26;
+&amp#0;&amp#0;&amp#0;IHDR&amp#0;&amp#0;&amp#1;&amp#2;&amp#0;&amp#0;&amp#2;&amp#7;&amp#8;&amp#6;&amp#0;&amp#0;&amp#0;tjR~&amp#0;&amp#0;&amp#0;&amp#1;sRGB&amp#0;®Î&amp#28;é&amp#0;&amp#0;&amp#0;&amp#4;gAMA&amp#0;&amp#0;±�&amp#11;üa&amp#5;&amp#0;&amp#0;&amp#0;	pHYs&amp#0;&amp#0;&amp#22;%&amp#0;&amp#0;&amp#22;%&amp#1;IR$ð&amp#0;&amp#0;&amp#23;&amp#28;IDATx^íÝß‹+ç}ÇñÏéÿàÎjˆ[ðeBµœ�&amp#18;Ç”BRˆX&amp#22;%&amp#4;&amp#18;&amp#8;%&amp#23;ÊÂ`HÀ“&amp#16;((‘“‹`aA‰‰eh‰&amp#17;læÂ¥n&amp#18;(µXN”Â	”â8D»ì&amp#20;ŸË@b#­ì?bû�™G+�VûC:ÒjÏñû&amp#5;Ë‘F£ÙµáykžgfÙ{gF&amp#0;>ÑþÂý&amp#11;à&amp#19;Œ&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;èÞ£G�¸j&amp#0;|ÂqF&amp#0;@ÜG&amp#0;€3&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;°¦&amp#16;¼÷fC_úÑoõ¡{&amp#14;àn»þ×��ÞÖ—ÞHÜ“¢/¼ÔÔ÷v>Ö/ôSÅú¢þõÇŸ×§l{&amp#26;‚W>œ<ÿd»øÿ&amp#7;¸knxFà©öjSï&amp#28;&amp#20;¿¾·ã^¾Ó&amp#30;éµý†^;rO&amp#1;\°‚©Á3úÚ�-&amp#12;wõÓîô#ýÉ=ÜŒ;þÿ&amp#7;0,&amp#22;&amp#2;¸é&amp#26;ÁÈ¦&amp#6;‘¾¶å¶Í˜]&amp#19;˜»Fpú[}çû¿Ñ&amp#31;ÝS={Ã9ó&amp#21;ïû°ÛÖ·~5rk&amp#21;ùËùTà-=|á&amp#27;zYoé•wÝæ1ÛþÎ‹ŸÎ&amp#31;_ó3�ÿw|[úç©ýžûêwõzõ&amp#25;÷,—í;ý½¦¾Ïek&&amp#23;Þ£²^>øºžwÏR‹ü&amp#12;ÀÒÒ&amp#16;\©ÿïgÕo¾~ö‹¡{>Çï~öƒ³ê&amp#15;&amp#31;ž}pÉó³áÃ³è›?8‹ÞùÈmøèì&amp#23;?´}~ö¾{~‰&amp#27;¼ï¦ßû'}÷|ì¦Ç¶}
+ÇËþL&amp#31;Ï½ozŸ³÷Ï~rÅÏ˜½>{\“¿âÿë›ý&amp#12;Àã¹áÔ`¤øû}iêëÆ—&amp#7;?Ö/ÿÅ>Éì&amp#19;rò	fóæ¯”¥wÿ[¿<u›.¸Ùûžñ&amp#27;úÂ&amp#7;¿Ñ¤‹�ö	ÿoïzª}ûº3�E~¦™ãíüƒjÏJ&amp#15;ÿðÈmøXþ@úÂW¦¿ç§õ½ñYÇ&amp#28;ï½ig,sÎˆžñ»vlûý_ãc�]÷3&amp#0;�gù«&amp#6;79­O�¾¯ÿI&amp#7;ÊßÎ&amp#12;&amp#12;ßÓs&amp#22;˜?&amp#15;ÜóY7~Ÿº—ÊzøŸoë5&amp#27;Üúê?^:…9·ÈÏôlYŸ+&amp#28;ï&amp#25;=›þ‡ø‘&amp#11;á3ú«tP¾Ñ¾"jÓ&amp#30;ém:ðÜg?3çÿß3úÜg=‹Ñÿé=·%síÏ&amp#0;<ž[[,|øÆÌ&amp#25;ÅôÜü
+7zßÎ×õò§&amp#18;=Ô&amp#23;õO&amp#11;Ì›—ý™Šò«&amp#2;/¿0uÖôæòŸÔŸ²&amp#24;&amp#1;·íÖB�.è&amp#21;Î(Ü×u÷"Üè}Goë&amp#21;›&amp#18;<'7E¸¡e¦yžÑ½ÿÕ/ê¹wßZúÎÊ&amp#15;&amp#7;#÷&amp#8;¸=ë&amp#15;ÁÖgô÷ËÌgoü¾Gzí�Ä&amp#6;u¤×mŽÿð�·‹§Õó,û3ÝÄÖçõºMUôA¢ßÍ�*|Z÷‚ôÇß¿?'&amp#20;&amp#31;ëw¿·&amp#16;¼ð7…+&amp#7;ÀºÝÂ&amp#25;Áx&amp#17;î­™»ûl&amp#0;_ù©y³÷e&amp#11;o/|#ÿ&amp#20;Ï&amp#22;Ñ&amp#18;½2}j¾õ—úkûçOƒ�óç™e¦yì=3S�÷þ�Ì™×O<ÿe;køà7úÖÌ÷zïÍŸ*þ ¬—¯Xh&amp#4;Öáv¦&amp#6;6‡']Ð+ÌÉß’
++ís\ó¾ü:¼§Ú—Ç&amp#3;Ç&amp#6;ø·óSóïtÇ&amp#3;?_Lüã¯~š¿<h—ý™æI§&amp#2;çÇ˜Ï@AzÖpð]Õl*ó­Ù÷ÍÜG&amp#0;Ü&amp#6;þö!€Û[,&amp#4;pw&amp#17;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;˜&amp#21;† Q&amp#28;EjõFî9€'&amp#5;g&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;ºwfÜã&amp#5;ŒÔk5Õ&amp#29;¸§òUmìiØìhXm¨^ñÜö\&amp#18;GêôÝ“L °]SÙ=›˜=®	B5J‡jÚÆ l«vþ¦tq²£¾½Þžl&amp#4;°Œ4&amp#4;&amp#11;9ýõÙ«/½töÒÏOÜ†ÔÉÙÏÓmöõê¯OÝ¶”Ûþê¯Ï
+[žîûêYa×ËŽëžgï™:Îìs&amp#0;Ë[xj�<èjàWÕ(|
+—UkTí¼ (‰í&amp#19;;Ý·^Ñô9B¹ÖPÕ&amp#31;¨û É7˜K�ëž—k¡‚AWÙ[F=&amp#29;öí,d¿x\&amp#0;ËY0&amp#4;‰Ží&amp#20;ßßÙ¾8&amp#0;½-•ÜÃÜ&amp#21;ûÚ–í&amp#29;ËFÿØöJåû&amp#6;{Wl‹B&amp#24;¨&amp#24;+>èÊ* ™&amp#25;&amp#8;€%ml±ÐÛšÊÆèTC÷ðJåšÂR_}UµO&amp#5;€•ÙX&amp#8;F§7&amp#26;úEI¬ŽM	|¹)&amp#2;€•X0&amp#4;žJvF?8:Ñ…&amp#27;‰“cû¤žVÖýà’}mËÉÑÀæ&amp#2;÷ó+&amp#7;Þ¶ò™ÂU£;QÜé+&amp#8;ëªïÙ&amp#20;¡&amp#19;»i&amp#5;€ÇuM&amp#8;ÒËy‘¢VÏfO&amp#21;&amp#27;„&amp#26;tÕŒ§†á¨§Vñú`¦¼[•Ÿî{þþ\&amp#18;§—&amp#8;&amp#3;…ç&amp#11;ƒî¸ýŽ¢éã¦ƒß=Ï&amp#22;&amp#30;ƒ0¿|XÞUÕï«SØ&amp#23;À²®¹�À]×·9yaå?&amp#29;øÍ®&·&amp#17;¤¯oéA4ï>‚9÷&amp#6;Ì¹’�s÷&amp#6;¸g©ôÞ�ûÇé}&amp#8;é½
+õÉ&amp#2;¡û&amp#25;lã…û&amp#22;&amp#0;,fÉ&amp#27;Š&amp#0;<M6¶X&amp#8;àî &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;ÀR!H&amp#20;G‘âÄ=½±eß&amp#7;`Ý&amp#22;&amp#15;ÁèTC÷p!Ë¾&amp#15;ÀÚ15&amp#0; {gÆ=¾V&amp#18;GêôÝ“± T£t¨fw`&amp#15;Ûª•Ýöl*ÐQß^&amp#15;Õ™û¾ödg&amp#0;&amp#27;´P&amp#8;2£žZÍ®J…Aï"1¬ªQ¯È›óü²÷&amp#1;Ø¼•MÊµPÁ «&amp#7;éb úÃ¾¯ê¾‹&amp#0;€;m…k&amp#4;eÕÂ@ýÃXñAWV&amp#1;U¨&amp#0;ðDXíba¹¦°ÔW_UíS&amp#1;à‰±Ú&amp#16;$±:6%ðå¦&amp#8;&amp#0;ž&amp#8;+&amp#12;A¢¸ÓW&amp#16;ÖUß³)B'¶-&amp#0;ž&amp#4;×„`¤^+RÔêÙ#ÇÛRÉþ&amp#25;žžoÉ$q~©0»"PÞUÕï«3}&amp#27;á%ï&amp#3;°yKœ&amp#17;ä‹‚ƒnSQd‘°Ážß_à«º;¾.è©²_•ßï¨Õ&amp#27;&amp#15;ü‹ï&amp#3;p7,~&amp#31;&amp#1;€§Îj&amp#23;&amp#11;&amp#1;<‘&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0&amp#27;
+A¢8Š¦þRòDú—•³¿–&amp#28;Å¶&amp#23;€Ûp§Î&amp#8;F½–:ý@a»­v»¦ñ&amp#31;Y&amp#7;°^w(&amp#4;#�&amp#28;¤à>&amp#1;&amp#0;nÙ�[#ðKž{&amp#4;à¶°X&amp#8;@÷ÎŒ{|#é<¾Ù-Ù<~W§­¦ºv6?&amp#22;„mÕ.œ×�Ô+ìç«ÚØÓ°ÙÑ°ÚP½bg&amp#0;I¬¨Ów¯;A¨öÅƒ&amp#1;Xƒ%C�Žêt@×•Žãéí…&amp#24;Œzj5»&amp#26;&amp#20;&amp#6;uzÅ £tØûã&amp#16;dò`&amp#28;íLo&amp#3;p&amp#27;–ž&amp#26;&amp#4;á$&amp#2;)¯RW&amp#24;HýÃžé\òÀ"àWÕ(|²—UkT-#&amp#0;îŠ%C&amp#16;èþœ³v¯dÃ{0t!Htl&amp#31;ûþÎ¶.|¾{[*¹‡&amp#0;6�ÅB&amp#0;„&amp#0;ÀÒ!&amp#24;êôÂÝÁ³7&amp#4;yÊf
+G'çk&amp#6;ç’ãl±&amp#16;ÀÝpM&amp#8;Ò•üHQk²&amp#0;˜&amp#27;¨Û,þ.@&amp#18;§—&amp#8;&amp#3;…ç&amp#11;ƒž*{�íÚU3žÚ3½’0{©&amp#16;ÀF-½X&amp#24;6J:Ì~9(ÿÊG`æ÷&amp#3;Ê5µÓ+&amp#4;ýÎù~Ñ�´ß&amp#14;í&amp#8;&amp#0;îŠÇ¸¡ˆ_
+&amp#2;ž&amp#22;,&amp#22;&amp#2; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;³ð&amp#26;&amp#1;€§&amp#15;g&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;ÀÒy¤^«©îÀ=M&amp#5;¡Úµrö0‰#uúÙÃœ{-Û>¬ªQ¯Ès/åÜñ4ï5&amp#0;ë¶ø&amp#25;Á¨§Vdƒ¶dƒ»Ýv_¡‚üE&amp#27;Ðn°_xM*ß·Gƒ®&amp#30;$nÃØèDG&amp#22;•`�&amp#8;&amp#0;›°p&amp#8;’&amp#7;]|&amp#27;èîÓ?WV-{>ÒðÂ€&amp#30;¿–>ÜUÕ—úÇÅ&amp#18;ŒNŽ²cîN&amp#31;&amp#18;À­Y0&amp#4;‰Ží”ÿòOnO¥t wZê�Ü¦&amp#2;OÛ;Y	ìHc‰&amp#30;Ø&amp#28;ÃßÙæl&amp#0;Ø�ÅB0:ÕÐ=œÏS¥ÞV&amp#24;&amp#12;ÔmFŠ"ûŠ‹ŸþÞöŽ|õu~R�&amp#28;Û³@{&amp#21;2&amp#0;lÊZ®&amp#26;”kn} Q•ßï(jõlÒàx&amp#21;í&amp#5;vRp˜oK²SŒû6�&amp#0;°)‹…ÀÛV~f?»Úw	&amp#27;ôõ0] <ÒÉÔT!_4´mIO‡}_U&amp#22;&amp#7;€�º&&amp#4;ùU€É'º�úg&amp#31;çö)_8åO&amp#20;gÏÇÿNdŸøþŽ¶§Ïü³EÃ�Ž&amp#14;ÓEÂ™×&amp#0;Üºkî#¸ìú¾ø¨csû‰ l«V¾¸]é&amp#21;†9÷&amp#6;Œz-5»&amp#3;÷>·&amp#17;ÀF,yC&amp#17;€§ÉZ&amp#22;&amp#11;&amp#1;<Y&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0;�î�&amp#25;÷øFF½–šÝ’Âö}&amp#29;G&amp#29;õÝv&amp#5;¡ÚµrºƒZÍ®&amp#6;nóùö)I&amp#28;©sþFsaŸDñô±å«ÚØÓ°ÙÑ°ÚP½â¹í&amp#0;VaÉ&amp#16;¤Ã<°&amp#24;Ô”_7øåû&amp#26;&amp#12;ÒHÌl?&amp#31;¼#õZMuUU£^Q>œmÐÇRm&amp#28;‚qH
+q˜„Á'&amp#4;ÀÊ-95H?¡Ý`Oy&amp#21;í&amp#5;²&amp#8;¤c~Îö£&amp#19;K@j¤¡í&amp#19;ì�#�*O"`’&amp#7;&amp#22;&amp#1;ßBQ8C°}&amp#26;Uû®&amp#0;ÖaÉ&amp#16;”´5ó¡ì•ÒazÉöÁÐ…ÀSú´ßi©—o˜‘èØ>öý�í©P8Þ–&amp#29;&amp#29;À:Üòb¡§J½­0&amp#24;¨ÛŒ&amp#20;Eö&amp#21;'î5&amp#0;›²‘«&amp#6;åZ[í¶}¥§ûýŽ¢VÏ�1&amp#0;Ø„Í^>ô*ª‡Ù"‚N²&amp#18;äS‡ÉšÂ”äxê*&amp#2;€Uº&&amp#4;é*¿�¾¯ì&amp#19;;½BPœ
+$ù¢€¶³E&amp#1;›:d«‹]5§÷K¯$&amp#20;®7&amp#2;X¥Û?#H§&amp#2;éÚ€ûê&amp#12;§/%šrm2e&amp#24;ïw í·CY"&amp#0;¬ÁÂ÷&amp#17;lN~/�Â¶
+W&amp#22;&amp#1;<¶Í®&amp#17;,"[#ðUºp]&amp#17;Àãºs!Hï\lÍÞd�ÄŠ:–�ê¾¸©&amp#16;X½»75˜ý]…Lz'c�&amp#8;&amp#0;kò&amp#4;­&amp#17;&amp#0;X—'g�&amp#0;ÀÚ&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;€5„ ‰WùgÔ&amp#1;Ü&amp#6;Î&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#22;&amp#11;Á¨×R&amp#20;EŠ&amp#19;·!“(¶mQqcA¶€˜î3þrû.{<&amp#0;«µP&amp#8;¼J]a õ&amp#15;'W&amp#5;’¸£¾_U£Vv[¦�ÔkEê&amp#12;íõv[íì+”&amp#29;"³øñ&amp#0;¬ÃÂSƒrÍ&amp#6;ò «&amp#7;é&amp#7;ö¨§Ã¾¯ê~E^þòŒ‘†&amp#3;)Ø›~½¬ÚÔ _ìx&amp#0;Öa‰5&amp#2;&amp#27;Èö1Þ?Œ&amp#21;&amp#31;te£V•KG­§’oŸø�–z—ÞX°Èñ&amp#0;¬Ãr‹…åšÂR_}Uµå¨õT©·íô n³¸>Ppãã&amp#1;X‡åB�ÄêØ)¼/wJ�rÍ­&amp#15;4ªòû�‹w&amp#30;.x<&amp#0;«µD&amp#8;&amp#18;Å�¾‚°®úž�ÒwbÛrC^Eõtupp¤“ó&amp#18;<Æñ&amp#0;¬Ä5!ÈWý§?Á³Uý T¶ÞWÞUÕï«sé¥>&amp#27;ä3¯%Ç}ÉßÑ¶›&amp#1;,v<&amp#0;ë°Ð&amp#25;Az?@z
+_Ý&amp#29;¯ú{ªìç§û­ËV&amp#3;Ó©Àøþ&amp#1;ûÊ.%Öó«&amp#2;K&amp#29;&amp#15;ÀÊÝ;3î1€O¨å&amp#22;&amp#11;&amp#1;<U&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;ÀªC0R¯&amp#21;)jõì&amp#17;€'&amp#5;g&amp#4;&amp#0;tïÌ¸Ç&amp#0;>¡8#&amp#0;°à&amp#25;Á¨§V³«�{:Í¯6T¯xJâH�aU�zEžm&amp#31;õZjvK
+Û»:m5Õ�zs&amp#16;¶U+»'&amp#0;6æ1§&amp#6;éâ nM&amp#6;þü&amp#16;¤£ßWµQ—µ"3ÞN&amp#12;€Í{¬©Á¨w`Ÿð6À÷óA• œD åUê
+&amp#3;©È&amp#21;&amp#6;`Ó–&amp#15;�M&amp#19;&amp#14;ì&amp#19;Ý¯î&amp#23;&amp#6;ø|�îÏùÔ÷J¾4&amp#24;&amp#18;&amp#2;`Ã–&amp#12;�M	&amp#14;º&amp#26;øUí__&amp#1;&amp#0;wÜR!XdJ&amp#0;àî[<&amp#4;nJ0;ç¿ÚP§&amp#23;ÎÿG:9&amp#26;Ø¬á¾X+&amp#4;6ëš&amp#16;ÌÞ2ì¦&amp#4;A¸àJÿ@Ýf¬Ä=K%qz)1PÈ%&amp#3;`ã®¹|X¼<8J/öÝK3®½� QÒaá&amp#30;&amp#4;‹@»ÆÙ&amp#0;p&amp#7;¬ý&amp#22;ãÉE&amp#12;zà®Zþò!€§&amp#6;!&amp#0;@&amp#8;&amp#0;ðkÈ&amp#0;&amp#12;g&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#22;AúgÒ#E­ž=&amp#2;ð´àŒ&amp#0;&amp#0;û&amp#16;&amp#0;g&amp#4;&amp#0;ÌÂg&amp#4;I&amp#28;©3¬ªQ¯È³ç£^KÍnIa{W§­¦ºƒ|¿T&amp#16;¶U+»'c£žZÍ®Îwó'ÇšH&amp#20;G&amp#29;õÝ3ÛIÕÆž†ÍŽ†Õ†ê•âÞ&amp#0;&amp#30;ÏŠÎ&amp#8;úêD&amp#7;Ò~[ívþÕ¨úêw"Å‰Û%å"`£Úí×PU]5§wJ÷I#&amp#16;„çÇj·ó&amp#8;LÂ&amp#0;`•V65&amp#8;Âº¦?¨½J]a`‰8&amp#28;_a&amp#24;©w`g&amp#2;6À'Ÿèž*{ÙNê¹Ë&amp#16;É&amp#3;Û'=K(œJ”UkTí¼&amp#0;À:¬(&amp#4;�îÏN&amp#1;ŒW²¡;&amp#24;æ!&amp#24;�èÈæ&amp#3;ÁìŽ^É&amp#6;ø@Ãl§DÇö±ïïlÏL&amp#21;Œ·¥’{&amp#8;`µn}±0�.DÑÔ×ôz&amp#1;€�¸õ&amp#16;¤&amp#11;ˆ“¹ÿäëÂ¢"€[³¢&amp#16;&amp#12;uzáVÃ‘Nò¹€Íð�·­&amp#29;›)ô�§W&amp#15;gyÊf&amp#19;G'&amp#23;ï\LŽY,&amp#4;Öäš&amp#16;Üô–â�ºÍØfø&amp#19;Iœ^J&amp#12;&amp#20;žÔ�&amp#23;&amp#6;;Å+	é¥Âóã»}&amp#6;s®$tÈ&amp#0;°.×ÜG�†À&amp#6;´&×ú/½� QÒaa¾o&amp#17;h×ò³�iI¬hfP_¸ß`î½&amp#6;[z&amp#16;q&amp#31;&amp#1;°&amp#14;+¼¡hÎ _©ü&#ûF¬'&amp#0;+¶à&amp#26;ÁH§Cû§´•EàVek&amp#4;¾Jœ&amp#12;&amp#0;+·X&amp#8;’&amp#7;6ï÷UÝ]ßGrz†Ñ&amp#26;ß]4æ¦&amp#19;~u¿pÓ&amp#18;€Õ¸ÁÔÀ­&amp#19;d&amp#19;öôžÿâ&amp#29;„+Ÿ&amp#26;Ì®&amp#15;d.~_&amp#0;«Ã¯!&amp#3;¸ý&amp#27;Š&amp#0;Ü=„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;`ñ¿†<ù3è»:=ÿsé¹ l«6õ·Ñ“8RgXUc_:˜úSç~µ¡ú…¿qž(Ž:ê»gùŸBßÓ°ÙÑpîþ&amp#0;VeÉ&amp#16;¤C:&amp#29;¨u�Ççxût&amp#12;²&amp#16;¤#Û·&amp#24;Ô+ÊvMbE¶±&amp#16;�QO­4&amp#20;A¨öùÆI&amp#24;æ‡&amp#3;Àª,=5&amp#8;ÂI&amp#4;R^¥®0�ú‡=�Ü¶œ&amp#5;cßE UÞUÕ·ýŽ&amp#19;·Á†ü&amp#3;‹@&amp#26;‹éÓ	•UkTíÝ&amp#0;ÖmÉ&amp#16;&amp#4;º?=f&amp#29;¯dÃv0,†ÀßÑváÃÜÓVÉþ&amp#25;žºý&amp#18;&amp#29;ÛÇ¾¿³=‰Å˜·¥tW&amp#0;ëÅb!&amp#0;B&amp#0;`é&amp#16;&amp#12;uZ\&amp#8;0#�&amp#28;lÖpßf÷‹ð”Í(ŽNfÖ&amp#22;Lr<u&amp#21;&amp#1;Àº\&amp#19;‚‘z­HQkv&amp#1;p n3¶ÙýD&amp#18;§—&amp#18;&amp#3;……&amp#5;¿›ðTÙ&amp#11;ì�]5ã©#¦W&amp#18;²K&amp#14;&amp#0;ÖméÅÂ°QÒad‘p_�¾mk×&amp#22;<&amp#27;pÊ5µÓ+&amp#4;ýÎùñ¢&amp#3;i¿&amp#29;Úw&amp#2;°n�qCÑ’ƒ~!ù½&amp#4;öÍ
+7*&amp#1;X­»½X˜­&amp#17;ø*q/&amp#17;°Vw"&amp#4;éYF«7³Tèî@ô«û…&amp#27;—&amp#0;¬ÞÝ˜&amp#26;Œo1vOsÅ[˜&amp#1;¬ÏÂ!&amp#0;ðô¹Ûk&amp#4;&amp#0;n&amp#5;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;À&amp#16;&amp#2;&amp#0;„&amp#0;&amp#0;!&amp#0;`&amp#8;&amp#1;&amp#0;B&amp#0;€&amp#16;&amp#0;0„&amp#0;&amp#0;!&amp#0;@&amp#8;&amp#0;&amp#24;B&amp#0;€&amp#16;&amp#0; &amp#4;&amp#0;&amp#12;!&amp#0;@&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;†&amp#16;&amp#0; &amp#4;&amp#0;&amp#8;&amp#1;&amp#0;C&amp#8;&amp#0;&amp#16;&amp#2;&amp#0;„&amp#0;€!&amp#4;&amp#0;&amp#8;&amp#1;&amp#0;B&amp#0;@Òÿ&amp#3;&amp#31;6]Ì�&amp#21;:k&amp#0;&amp#0;&amp#0;&amp#0;IEND®B`‚
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Tue, 20 May 2025 13:55:48 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-8S3yx+y/l+xoYizBP/FEEzqDOVw"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "682c89e45d3fd9ffa0f9a1ce",
+    "message": "Product Added Successfully"
+}
+682c89e45d3fd9ffa0f9a1ce
+Product Added Successfully
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODFmMWY3ZWZkMmFmMWM5OWUxODgwMGUiLCJ1c2VyRW1haWwiOiJvc2dveWFsQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjcwNDIyMDI0ODEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDc3NDkzNDcsImV4cCI6MTc3OTMwNjk0N30.-RKYmj-q0oF0TTBJSCK0fi8PHIMuxuhs5H-gaQTHlmY
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "682c89e45d3fd9ffa0f9a1ce"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Tue, 20 May 2025 13:55:50 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-MeNZMopKEVXUgZ70UjR7kT8SVSg"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "682c89e65d3fd9ffa0f9a1d4"
+    ],
+    "productOrderId": [
+        "682c89e45d3fd9ffa0f9a1ce"
+    ],
+    "message": "Order Placed Successfully"
+}
+{"orders":["682c89e65d3fd9ffa0f9a1d4"],"productOrderId":["682c89e45d3fd9ffa0f9a1ce"],"message":"Order Placed Successfully"}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/682c89e45d3fd9ffa0f9a1ce
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=682c89e45d3fd9ffa0f9a1ce
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODFmMWY3ZWZkMmFmMWM5OWUxODgwMGUiLCJ1c2VyRW1haWwiOiJvc2dveWFsQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjcwNDIyMDI0ODEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDc3NDkzNDcsImV4cCI6MTc3OTMwNjk0N30.-RKYmj-q0oF0TTBJSCK0fi8PHIMuxuhs5H-gaQTHlmY
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 20 May 2025 13:55:50 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+Product Deleted Successfully
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

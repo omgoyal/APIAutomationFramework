@@ -1,0 +1,17 @@
+package API_Automation.API_Automation_Project;
+
+public class GetCourse {
+	
+	
+	
+	
+	private String url;
+	private String services;
+	private String expertise;
+	private Courses courses;
+	private String linkedIn;
+	private String instructor;
+	
+	
+
+}

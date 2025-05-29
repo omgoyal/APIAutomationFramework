@@ -1,0 +1,61 @@
+package API_Automation.API_Automation_Project;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+
+import static io.restassured.RestAssured.*;
+
+import java.util.List;
+
+
+
+public class OAuthTest {
+	
+	@Test
+	public void oAuthtest() {
+	
+	RestAssured.baseURI="https://rahulshettyacademy.com";
+	String response=given().formParam("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
+	.formParam("client_secret", "erZOWM9g3UtwNRj340YYaK_W")
+	.formParam("grant_type", "client_credentials")
+	.formParam("scope", "trust")
+	.when().log().all()
+	.post("/oauthapi/oauth2/resourceOwner/token")
+	.then().assertThat().statusCode(200)
+	.extract().response().asString();
+	
+	
+	System.out.println(response);
+	
+	JsonPath js = new JsonPath(response);
+	String accesstokenvalue=js.getString("access_token");
+	
+	GetCourse gc=given().queryParam("access_token", accesstokenvalue)
+	.when().log().all()
+	.get("https://rahulshettyacademy.com/oauthapi/getCourseDetails").as(GetCourse.class);
+	
+	System.out.println(gc.getLinkedIn());
+	System.out.println(gc.getInstructor());
+	
+	System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());
+	
+	List<Api>apicourse= gc.getCourses().getApi();
+	
+	for(int i=0;i<apicourse.size();i++) {
+		if(apicourse.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing")) {
+			System.out.println(apicourse.get(i).getPrice());
+		}
+		
+		
+	}
+	
+	
+	System.out.println(gc);
+	
+	
+	}
+
+
+}

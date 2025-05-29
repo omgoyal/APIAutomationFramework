@@ -1,0 +1,30 @@
+package API_Automation.API_Automation_Project;
+
+import org.testng.annotations.Test;
+
+import io.restassured.response.Response;
+import resources.Utils;
+
+import static io.restassured.RestAssured.*;
+public class GraphQL extends Utils {
+
+	@Test
+	public void testGraphQLAPI() {
+		
+		
+		Response response=given()
+	    .log().all()
+	    .header("Content-Type", "application/json")
+	    .body("{\"query\":\"query{ character(characterId:14816){ name } }\",\"variables\":null}")
+	.when().log().all()
+	    .post("https://rahulshettyacademy.com/gq/graphql").then().extract().response();
+		
+		System.out.println(response);
+		
+		String namevalue=getJsonPath(response,"data.character.name");
+		
+		System.out.println(namevalue);
+
+		
+	}
+}

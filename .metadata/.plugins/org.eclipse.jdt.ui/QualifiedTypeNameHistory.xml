@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
+    <fullyQualifiedTypeName name="API_Automation.API_Automation_Project_Pojo.LoginResponse"/>
+    <fullyQualifiedTypeName name="API_Automation.API_Automation_Project_Pojo.OrderDetails"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.Cucumber"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

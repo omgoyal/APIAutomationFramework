@@ -1,0 +1,32 @@
+package API_Automation.API_Automation_Project;
+
+import static io.restassured.RestAssured.*;
+
+import io.restassured.response.Response;
+import io.restassured.response.ResponseBodyData;
+import io.restassured.specification.RequestSpecification;
+import resources.Utils;
+
+public class OAuth2_0Test  extends Utils  {
+	
+	public void OAuth2_0TestMethod(){
+		
+		
+		
+		Response accessTokenResponse=given().log().all().queryParams("code", "")
+		.queryParams("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
+		.queryParams("client_secret","erZOWM9g3UtwNRj340YYaK_W")
+		.queryParams("redirect_uri","https://rahulshettyacademy.com/getCourse.php")
+		.queryParams("grant_type","authorization_code")
+		.when().log().all().post("https://www.googleapis.com/oauth2/v4/token");
+		
+		String accesstokenvalue=getJsonPath(accessTokenResponse,"access_token");
+		
+		String response =given().queryParam("access_token", accesstokenvalue)
+		.when().get("https://rahulshettyacademy.com/getCourse.php").asString();
+	
+		
+		System.out.println(response);
+	}
+
+}
