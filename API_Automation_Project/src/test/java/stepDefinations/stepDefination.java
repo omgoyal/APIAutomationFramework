@@ -48,16 +48,18 @@ public class stepDefination extends Utils{
 	    @When("user calls {string} with {string} HTTP request")
 	    public void user_calls_with_http_request(String apiresource,String apimethod) {
 	    	
-	    APIResources resouceAPI=APIResources.valueOf(apiresource);
-	    System.out.println(resouceAPI.getResource());
+	    
+	    	
+	    	 APIResources resourceAPI = APIResources.valueOf(apiresource); 
+	    System.out.println(resourceAPI.getResource());
 	    
 	    
 	    if(apimethod.equalsIgnoreCase("POST")) 
-	    	 responsevalue=res.when().post(resouceAPI.getResource());
+	    	 responsevalue=res.when().post(resourceAPI.getResource());
 	    else if(apimethod.equalsIgnoreCase("GET"))
-	    	responsevalue=res.when().get(resouceAPI.getResource());
+	    	responsevalue=res.when().get(resourceAPI.getResource());
 	    else if(apimethod.equalsIgnoreCase("DELETE"))
-	    	responsevalue=res.when().delete(resouceAPI.getResource());
+	    	responsevalue=res.when().delete(resourceAPI.getResource());
 	    
 	    
 	    }

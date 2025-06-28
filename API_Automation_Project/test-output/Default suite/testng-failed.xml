@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="API_Automation.API_Automation_Project.OAuth2_0Test">
+      <class name="excelTestExample">
         <methods>
-          <include name="OAuth2_0TestMethod"/>
+          <include name="testCaseExcel"/>
         </methods>
-      </class> <!-- API_Automation.API_Automation_Project.OAuth2_0Test -->
+      </class> <!-- excelTestExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

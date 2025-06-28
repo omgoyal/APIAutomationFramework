@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-29T11:22:14 IST" name="Default suite" finished-at="2025-05-29T11:22:17 IST" duration-ms="2938">
+  <suite started-at="2025-06-14T19:36:41 IST" name="Default suite" finished-at="2025-06-14T19:36:44 IST" duration-ms="2762">
     <groups>
     </groups>
-    <test started-at="2025-05-29T11:22:14 IST" name="Default test" finished-at="2025-05-29T11:22:17 IST" duration-ms="2938">
-      <class name="API_Automation.API_Automation_Project.OAuth2_0Test">
-        <test-method signature="OAuth2_0TestMethod()[pri:0, instance:API_Automation.API_Automation_Project.OAuth2_0Test@36902638]" started-at="2025-05-29T11:22:14 IST" name="OAuth2_0TestMethod" finished-at="2025-05-29T11:22:17 IST" duration-ms="2898" status="PASS">
+    <test started-at="2025-06-14T19:36:41 IST" name="Default test" finished-at="2025-06-14T19:36:44 IST" duration-ms="2762">
+      <class name="API_Automation.API_Automation_Project.excelDriven">
+        <test-method signature="excelDrivenTest()[pri:0, instance:API_Automation.API_Automation_Project.excelDriven@7f0eb4b4]" started-at="2025-06-14T19:36:41 IST" name="excelDrivenTest" finished-at="2025-06-14T19:36:44 IST" duration-ms="2725" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OAuth2_0TestMethod -->
-      </class> <!-- API_Automation.API_Automation_Project.OAuth2_0Test -->
+        </test-method> <!-- excelDrivenTest -->
+      </class> <!-- API_Automation.API_Automation_Project.excelDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

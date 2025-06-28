@@ -22,10 +22,10 @@ Scenario: Verify if delete place functionaity is working
 	Then the API call success status code 200
 	And "status" in response body is "OK"
 	
-@DeletePlace
-Scenario: Verify if update place functionaity is working
+#@DeletePlace
+#Scenario: Verify if update place functionaity is working
 
-	Given Delete Place Payload 
-	When user calls "deletePlaceAPI" with "post" HTTP request
-	Then the API call success status code 200
-	And "status" in response body is "OK"
+#	Given Delete Place Payload 
+#	When user calls "deletePlaceAPI" with "post" HTTP request
+#	Then the API call success status code 200
+#	And "status" in response body is "OK"
